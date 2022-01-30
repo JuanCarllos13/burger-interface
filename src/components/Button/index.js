@@ -1,9 +1,12 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 
 import { Containerbutton } from './styles'
 
-function Button ({ children, ...props }) {
+export function Button ({ children, ...props }) {
   return <Containerbutton {...props}>{children}</Containerbutton>
 }
 
-export default Button
+Button.propTypes = {
+  children: PropTypes.string
+}

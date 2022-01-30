@@ -6,12 +6,12 @@ import { toast } from 'react-toastify'
 import * as Yup from 'yup'
 
 import LoginImagem from '../../assets/LoginIma.svg'
-import Button from '../../components/Button'
+import { Button } from '../../components'
 import { useUser } from '../../hooks/UserContext'
 import api from '../../services/api'
 import { Container, Image, ContainerItems, Input, SignInLink, Label, Error } from './styles'
 
-function Login () {
+export function Login () {
   const { putUserData } = useUser()
   const history = useHistory()
 
@@ -72,5 +72,3 @@ function Login () {
     </Container>
   )
 }
-
-export default Login

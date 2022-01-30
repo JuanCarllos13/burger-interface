@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 import styled from 'styled-components'
 
 export const Container = styled.div`
@@ -40,7 +41,7 @@ export const Image = styled.img`
     border-radius: 10px;
 `
 
-export const Button = styled.button` 
+export const Button = styled(Link)` 
     margin-top: 16px;
     background: #9758A6;
     border-radius: 8px;
@@ -53,6 +54,7 @@ export const Button = styled.button`
     color: #FFFFFF;
     cursor: pointer;
 
+
     &:hover{
         opacity: 0.8;
     }
@@ -60,4 +62,8 @@ export const Button = styled.button`
     &:active{
         opacity: 0.5;
     }
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `

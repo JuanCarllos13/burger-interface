@@ -6,11 +6,11 @@ import { toast } from 'react-toastify'
 import * as Yup from 'yup'
 
 import RegisterImg from '../../assets/register.svg'
-import Button from '../../components/Button'
+import { Button } from '../../components'
 import api from '../../services/api'
 import { Container, Image, ContainerItems, Input, SignInLink, Label, Error } from './styles'
 
-function Register () {
+export function Register () {
   const schema = Yup.object().shape({
     name: Yup.string().required('Seu nome é obrigatório'),
     email: Yup.string().email('Digite um email válido').required('O email é obrigatório'),
@@ -81,5 +81,3 @@ function Register () {
     </Container>
   )
 }
-
-export default Register

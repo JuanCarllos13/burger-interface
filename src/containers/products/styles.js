@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
+    background: #E5E5E5;
+    min-height: calc(100vh - 72px);
 
 `
 export const ProductsImg = styled.img`
@@ -27,5 +29,16 @@ export const CategoryButton = styled.button`
     font-size: 17px;
     line-height: 20px;
     padding-bottom: 5px;
+
+`
+
+export const ProductsContainer = styled.div`
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 40px;
+    justify-items: center;
+    margin-top: 20px;
+
 
 `

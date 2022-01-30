@@ -12,6 +12,10 @@ export const UserProvider = ({ children }) => {
     await localStorage.setItem('burger:userData', JSON.stringify(userinfo))
   }
 
+  const logaout = async () => {
+    await localStorage.removeItem('burger:userData')
+  }
+
   useEffect(() => {
     const loadUserData = async () => {
       const clientInfo = await localStorage.getItem('burger:userData')
@@ -24,7 +28,7 @@ export const UserProvider = ({ children }) => {
   }, [])
 
   return (
-        <UserContext.Provider value={{ putUserData, userData }}>
+        <UserContext.Provider value={{ putUserData, userData, logaout }}>
             {children}
         </UserContext.Provider>
   )
@@ -40,5 +44,5 @@ export const useUser = () => {
 }
 
 UserProvider.protoType = {
-  children: PropTypes.noode
+  children: PropTypes.node
 }
