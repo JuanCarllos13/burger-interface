@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+<h1 align="center">
+  🍔<br>hamburger
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h4 align="center">
+  Projeto criado com o intuito de mostrar meus conhecimentos ao decorrer da minha carreira.
+</h4>
 
-## Available Scripts
+![login](https://user-images.githubusercontent.com/86435195/152884333-b4503bb7-9412-4e1c-85a7-2b98d43483cc.mp4)
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ❓ O que é ?
 
-### `npm test`
+Este é um repositório no qual se encontra a parte Front-end de uma aplicação. Faço um clone desse Repositório e der o comando "yarn", em seguinda um "yarn start" para executar.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<hr>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🎯 Objetivo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Esse projeto tem como objetivo, criar uma aplicação na qual simulamos os pedidos de uma lanchonete, aonde podemos cadastrar usuários e pedidos, além de ter uma página com todos os produtos cadastros e adiconar no carrinho podendo visualizá los na tela seguinte.
 
-### `npm run eject`
+<hr>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📚 Seções
+O site é composto por 2 seções diferentes:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Login::** Nele podemos cadastrar novos pedidos com o nome do Cliente;
+- **Cadastro:** Caso o usuário não tenha acesso é preciso criar um perfil.
+- **Home** É onde podemos as categories de produtos e as ofertas.
+- **Pedidos:** Nessa seção podemos visualizar todos os pedidos que foram feito, além disso podemos deletar algum pedido que esteja errado;
+- **Carrinho** Onde se encontra todos os pedidos que o usuário escolheu, podendo assim aumentar o produto e diminuir para realizar a compra
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 💼 Tecnologias utilizadas
+Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 
-## Learn More
+- HTML;
+- CSS;
+- JavaScript;
+- Reactjs;
+- Nodejs;
+- PostgressSQL
+- MongoDB
+- Docker
+---
+## ❗ Você tem que ver!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Essa aplicação é a parte front-end do projeto, recomendo para você que veja o repositório com a API que foi feita por mim mesmo com Node.js.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Link do Back-end: https://github.com/JuanCarllos13/hamburger-node.js
+<hr>
+## 👨‍💻 Autor<br>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/JuanCarllos13">
+        <img src="https://user-images.githubusercontent.com/86435195/148881183-10c14efa-9cfa-444e-983b-4ebd408e9513.jpeg" width="100px;" height="150px" alt="Foto do Juan no GitHub"/><br>
+        <sub>
+          <b>JUAN CARLOS</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+</table>
+<hr>
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
