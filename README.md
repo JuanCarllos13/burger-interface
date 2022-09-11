@@ -60,7 +60,7 @@ Link do Back-end: https://github.com/JuanCarllos13/Burger-nodsjs
   <tr>
     <td align="center">
       <a href="https://github.com/JuanCarllos13">
-        <img src="https://user-images.githubusercontent.com/86435195/148881183-10c14efa-9cfa-444e-983b-4ebd408e9513.jpeg" width="100px;" height="150px" alt="Foto do Juan no GitHub"/><br>
+        <img src="https://github.com/JuanCarllos13.png" height="100px" alt="Foto do Juan no GitHub"/><br>
         <sub>
           <b>JUAN CARLOS</b>
         </sub>
